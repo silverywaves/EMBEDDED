@@ -157,7 +157,8 @@ void loop() {
 
 LED 점등실습-04(아날로그)
 ---
-![image](https://github.com/silverywaves/EMBEDDED/assets/155939946/6d64fe90-0ed2-40f0-b4c4-6783c5a8bdb6)
+![image](https://github.com/silverywaves/EMBEDDED/assets/155939946/07103b54-dd47-4dd1-9786-189b51f40a09)
+
 
 
 

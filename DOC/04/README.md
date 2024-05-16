@@ -8,7 +8,7 @@ INPUT
 
 
 ```
-int led[7] = {0,1,2,3,4,5,6};  // 7개의 LED 핀을 나타내는 배열을 선언하고 초기화
+const unsigned int led[5] = {2,3,4,5,6};  // 5개의 LED 핀을 나타내는 배열을 선언하고 초기화
 void setup()
 {
   Serial.begin(115200);    // 시리얼 통신 초기화(비트속도:115200bps)
@@ -18,17 +18,17 @@ void loop()
 {
   int num=0;    // 입력된 숫자를 저장할 변수를 선언하고 초기화
   if(Serial.available()){   // 시리얼 버퍼에 데이터가 있는지 확인
-   	char userInput = Serial.read();  // 시리얼로부터 데이터 읽어오기
+   	char userInput = Serial.read();  // 시리얼로부터 데이터 읽어오기(호출 시 시리얼 버퍼의 첫 번째 바이트만 읽어옴)
    
-    if (isdigit(userInput)) {  // 입력된 문자가 숫자인지 확인
+    if (isdigit(userInput)) {  // 입력된 문자가 숫자인지 확인(userInput이 숫자일 때 true를 반환)
       num = num * 10 + (userInput - '0');  // 입력된 숫자 구성
     }
     switch(num)    // 입력된 숫자에 따라 다른 동작을 수행
     {
-      case 2:
-      	 digitalWrite(led[2],HIGH);  // LED 핀을 HIGH로 설정하여 LED ON
+      case 2:		// num 값이 2 일 때
+      	 digitalWrite(led[2],HIGH);  // 디지털 출력을 설정 : 2번 LED를 HIGH로 설정하여 LED ON
 		 delay(10);    // LED가 켜진 상태를 일정 시간 유지
-      	 break;
+      	 break;		// 빠져나가기
       case 3:
       	 digitalWrite(led[3],HIGH);
 		 delay(10);
@@ -46,7 +46,7 @@ void loop()
 		 delay(10);
       	 break;       
     }
-	 digitalWrite(led[num],LOW);  // 입력된 숫자에 해당하는 LED OFF
+	 digitalWrite(led[num],LOW);  // 디지털 출력을 설정 : 입력된 숫자에 해당하는 LED OFF
   }
 }
 ```

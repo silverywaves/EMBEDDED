@@ -18,6 +18,11 @@ ARDUINO IDE 설치
 ---
 > 아두이노 IDE 설치 <br>
 
+![image](https://github.com/silverywaves/EMBEDDED/assets/155939946/f797893e-8397-4b94-a64a-f3199332a6f5)
+
+![image](https://github.com/silverywaves/EMBEDDED/assets/155939946/612db017-6ae9-40c5-aa1d-d12ea3cc3e36)
+
+![image](https://github.com/silverywaves/EMBEDDED/assets/155939946/d123bcd7-77ce-4581-9841-eb46e3c29a28)
 
 
 ---
@@ -28,6 +33,9 @@ CH340 DRIVER 설치
 ---
 > 우노 USB 인식 드라이버 <br>
 
+![image](https://github.com/silverywaves/EMBEDDED/assets/155939946/5eff93c3-e28b-4bcf-883d-96d22ff00b41)
+
+![image](https://github.com/silverywaves/EMBEDDED/assets/155939946/37b73ba6-bced-4e12-a593-bbc8cb2be638)
 
 ---
 #

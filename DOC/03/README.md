@@ -132,21 +132,25 @@ LED 점등실습-03(디지털)
 
 
 ```
-const unsigned int led[5] = {2,3,4,5,6};
+const unsigned int led[5] = {2,3,4,5,6};   // 5개의 LED 핀을 나타내는 배열을 선언하고 초기화
 
-void setup() {
-  for(int x=0 ; x<5 ; x++){
-    pinMode(led[x],OUTPUT);
+void setup() {	// 초기설정 영역 : 한번 실행하는 함수 (초기화 함수 init과 비슷)
+  for(int x=0 ; x<5 ; x++){		// x=배열의 인덱스, 반복문으로 0에서 4까지 증가
+    pinMode(led[x],OUTPUT);		// led[x]에 해당하는 디지털 핀을 출력으로 설정
   }
 }
-void loop() {
-  for(int i=0;i<5;i++){  
-      //ALL OFF
-      for(int x=0;x<=5;x++){
-        digitalWrite(led[x],LOW);
+	
+void loop() {	// 반복 작업 설정 영역, 보드가 켜져있는 동안 계속 반복
+  for(int i=0;i<5;i++){  			// i=배열의 인덱스, 반복문으로 0에서 4까지 증가 
+
+	// 모든 LED 끄기
+      for(int x=0;x<=5;x++){		// x=배열의 인덱스, 반복문으로 0에서 4까지 증가
+        digitalWrite(led[x],LOW);		// 디지털 출력을 설정 : x에 해당하는 LED를 LOW로 설정하여 LED OFF
       }  
-      digitalWrite(led[i], HIGH);
-      delay(500);
+
+	// i번째 LED 켜기
+      digitalWrite(led[i], HIGH);		// 디지털 출력을 설정 : i에 해당하는 LED를 HIGH로 설정하여 LED ON
+      delay(500);				// 0.5초동안 프로그램 실행 중지(LED 켠 상태로 0.5초 대기)
   }
 }
 ```

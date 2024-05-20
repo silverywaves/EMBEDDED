@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\babys\\Desktop\\EMBEDDED\\LEC\\C#\\INIT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C332B774-3FE5-44B4-AF6D-9F0E810B27FE}|INIT.csproj|c:\\users\\babys\\desktop\\embedded\\lec\\c#\\init\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C332B774-3FE5-44B4-AF6D-9F0E810B27FE}|INIT.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B544304-EBC6-439D-B9D5-5C9390189466}|INIT.csproj|c:\\users\\babys\\desktop\\embedded\\lec\\c#\\init\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B544304-EBC6-439D-B9D5-5C9390189466}|INIT.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C332B774-3FE5-44B4-AF6D-9F0E810B27FE}|INIT.csproj|c:\\users\\babys\\desktop\\embedded\\lec\\c#\\init\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C332B774-3FE5-44B4-AF6D-9F0E810B27FE}|INIT.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3B544304-EBC6-439D-B9D5-5C9390189466}|INIT.csproj|c:\\users\\babys\\desktop\\embedded\\lec\\c#\\init\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B544304-EBC6-439D-B9D5-5C9390189466}|INIT.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C332B774-3FE5-44B4-AF6D-9F0E810B27FE}|INIT.csproj|c:\\users\\babys\\desktop\\embedded\\lec\\c#\\init\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C332B774-3FE5-44B4-AF6D-9F0E810B27FE}|INIT.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C332B774-3FE5-44B4-AF6D-9F0E810B27FE}|INIT.csproj|c:\\users\\babys\\desktop\\embedded\\lec\\c#\\init\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C332B774-3FE5-44B4-AF6D-9F0E810B27FE}|INIT.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B544304-EBC6-439D-B9D5-5C9390189466}|INIT.csproj|c:\\users\\babys\\desktop\\embedded\\lec\\c#\\init\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B544304-EBC6-439D-B9D5-5C9390189466}|INIT.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,52 +35,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\babys\\Desktop\\EMBEDDED\\LEC\\C#\\INIT\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\babys\\Desktop\\EMBEDDED\\LEC\\C#\\INIT\\Form1.cs*",
-              "RelativeToolTip": "Form1.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T07:33:52.648Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\babys\\Desktop\\EMBEDDED\\LEC\\C#\\INIT\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\babys\\Desktop\\EMBEDDED\\LEC\\C#\\INIT\\Form1.Designer.cs*",
-              "RelativeToolTip": "Form1.Designer.cs*",
-              "ViewState": "AQIAAAUAAAAAAAAAAADwvy4AAAAKAAAA",
+              "ToolTip": "C:\\Users\\babys\\Desktop\\EMBEDDED\\LEC\\C#\\INIT\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAIwE8AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T07:31:54.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\babys\\Desktop\\EMBEDDED\\LEC\\C#\\INIT\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\babys\\Desktop\\EMBEDDED\\LEC\\C#\\INIT\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T07:29:18.454Z",
+              "WhenOpened": "2024-05-20T09:06:32.933Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\babys\\Desktop\\EMBEDDED\\LEC\\C#\\INIT\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\babys\\Desktop\\EMBEDDED\\LEC\\C#\\INIT\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAADwvxwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T09:05:36.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Form1.cs [\uB514\uC790\uC778]",
               "DocumentMoniker": "C:\\Users\\babys\\Desktop\\EMBEDDED\\LEC\\C#\\INIT\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\babys\\Desktop\\EMBEDDED\\LEC\\C#\\INIT\\Form1.cs [\uB514\uC790\uC778]*",
-              "RelativeToolTip": "Form1.cs [\uB514\uC790\uC778]*",
+              "ToolTip": "C:\\Users\\babys\\Desktop\\EMBEDDED\\LEC\\C#\\INIT\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "Form1.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T07:26:52.687Z",
+              "WhenOpened": "2024-05-20T08:57:58.438Z",
               "EditorCaption": " [\uB514\uC790\uC778]"
             }
           ]

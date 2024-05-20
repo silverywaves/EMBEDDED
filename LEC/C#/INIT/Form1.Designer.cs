@@ -3,14 +3,14 @@
     partial class Form1
     {
         /// <summary>
-        ///  Required designer variable.
+        /// 필수 디자이너 변수입니다.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        ///  Clean up any resources being used.
+        /// 사용 중인 모든 리소스를 정리합니다.
         /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        /// <param name="disposing">관리되는 리소스를 삭제해야 하면 true이고, 그렇지 않으면 false입니다.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,88 +20,94 @@
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
+        #region Windows Form 디자이너에서 생성한 코드
 
         /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
+        /// 디자이너 지원에 필요한 메서드입니다. 
+        /// 이 메서드의 내용을 코드 편집기로 수정하지 마세요.
         /// </summary>
         private void InitializeComponent()
         {
-            comboBox1 = new ComboBox();
-            버튼1 = new Button();
-            button2 = new Button();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            SuspendLayout();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.SuspendLayout();
             // 
             // comboBox1
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "테스트1", "테스트2", "테스트3", "테스트4" });
-            comboBox1.Location = new Point(44, 46);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(242, 40);
-            comboBox1.TabIndex = 0;
-            // 
-            // 버튼1
-            // 
-            버튼1.Location = new Point(30, 103);
-            버튼1.Name = "버튼1";
-            버튼1.Size = new Size(150, 46);
-            버튼1.TabIndex = 1;
-            버튼1.Text = "BTN1";
-            버튼1.UseVisualStyleBackColor = true;
-            버튼1.MouseClick += 버튼1_MouseClick;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(204, 103);
-            button2.Name = "button2";
-            button2.Size = new Size(150, 46);
-            button2.TabIndex = 2;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
-            button2.MouseClick += button2_MouseClick;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "텍스트1",
+            "텍스트2",
+            "텍스트3",
+            "텍스트4"});
+            this.comboBox1.Location = new System.Drawing.Point(35, 43);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(271, 32);
+            this.comboBox1.TabIndex = 0;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(396, 46);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(344, 39);
-            textBox1.TabIndex = 4;
+            this.textBox1.Location = new System.Drawing.Point(364, 40);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(336, 35);
+            this.textBox1.TabIndex = 1;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(396, 110);
-            textBox2.Multiline = true;
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(344, 328);
-            textBox2.TabIndex = 5;
+            this.textBox2.Location = new System.Drawing.Point(364, 115);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(336, 293);
+            this.textBox2.TabIndex = 2;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(35, 115);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(121, 52);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "BTN1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.button1_MouseClick);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(179, 115);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(127, 52);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "BTN2";
+            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.button2_MouseClick);
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(14F, 32F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 484);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(button2);
-            Controls.Add(버튼1);
-            Controls.Add(comboBox1);
-            Name = "Form1";
-            Text = "Form1";
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 24F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.comboBox1);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
 
-        private ComboBox comboBox1;
-        private Button 버튼1;
-        private Button button2;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
+

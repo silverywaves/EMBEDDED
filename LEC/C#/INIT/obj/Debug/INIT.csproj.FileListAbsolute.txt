@@ -1,0 +1,10 @@
+C:\Users\babys\Desktop\EMBEDDED\LEC\C#\INIT\bin\Debug\INIT.exe.config
+C:\Users\babys\Desktop\EMBEDDED\LEC\C#\INIT\bin\Debug\INIT.exe
+C:\Users\babys\Desktop\EMBEDDED\LEC\C#\INIT\bin\Debug\INIT.pdb
+C:\Users\babys\Desktop\EMBEDDED\LEC\C#\INIT\obj\Debug\INIT.csproj.AssemblyReference.cache
+C:\Users\babys\Desktop\EMBEDDED\LEC\C#\INIT\obj\Debug\INIT.Properties.Resources.resources
+C:\Users\babys\Desktop\EMBEDDED\LEC\C#\INIT\obj\Debug\INIT.csproj.GenerateResource.cache
+C:\Users\babys\Desktop\EMBEDDED\LEC\C#\INIT\obj\Debug\INIT.csproj.CoreCompileInputs.cache
+C:\Users\babys\Desktop\EMBEDDED\LEC\C#\INIT\obj\Debug\INIT.exe
+C:\Users\babys\Desktop\EMBEDDED\LEC\C#\INIT\obj\Debug\INIT.pdb
+C:\Users\babys\Desktop\EMBEDDED\LEC\C#\INIT\obj\Debug\INIT.Form1.resources

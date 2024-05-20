@@ -70,10 +70,142 @@ JAVA와의 차이점
 
 ---
 
+# 프로젝트 vs 솔루션
+> 비주얼 스튜디오를 통해 프로젝트를 생성시 솔루션 생성
+
+![image](https://github.com/silverywaves/EMBEDDED/assets/155939946/ed014661-2356-425e-aec3-f4b6e8a2211c)
 
 
+솔루션
+---
+- 프로젝트를 구성함에 있어 필요한 컨테이너
+- 빌드정보나 비주얼 스튜디오의 설정 값 등 특 기타 파일들과 함께 하나 이상의 관련된 프로젝트들로 구성(프로젝트 묶음)
+<br>
 
+프로젝트
+---
+- 하나의 exe 실행파일을 생성하기 위해 포함된 모든 파일들의 묶음입
+- 소스 코드, 아이콘, 이미지, 데이터 파일 등이 포함
 
+<br>
+
+# WINFORM 파일 구성
+
+비주얼스튜디오로 원폼 프로젝트 생성시 Program.cs와 Form1.cs 생성(디폴트 네임)
+---
+> Program.cs
+```
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace INIT
+{
+    internal static class Program
+    {
+        /// <summary>
+        /// 해당 애플리케이션의 주 진입점입니다.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());	// Form1 클래스를 객체로 생성 후 Application.Run() 안에 파라미터로 넣고 실행
+        }
+    }
+}
+```
+- Application.Run()
+  - Form이라는 Window 창 객체를 화면에 보여주고, 메시지를 만들어 마우스와 키보드 등의 입력 수단을 통해 UI 스레드(STAThread)에 전달
+	- 기본적인 창을 출력하고 그 창에서 작동되는 마우스나 키보드의 동작을 모두 읽어와 출력하도록 만들어주는 역할
+
+<br>
+
+> Form1.Designer.cs
+```
+amespace INIT
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// 필수 디자이너 변수입니다.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// 사용 중인 모든 리소스를 정리합니다.
+        /// </summary>
+        /// <param name="disposing">관리되는 리소스를 삭제해야 하면 true이고, 그렇지 않으면 false입니다.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form 디자이너에서 생성한 코드
+
+        /// <summary>
+        /// 디자이너 지원에 필요한 메서드입니다. 
+        /// 이 메서드의 내용을 코드 편집기로 수정하지 마세요.
+        /// </summary>
+
+        private void InitializeComponent()
+        {
+	   this.SuspendLayout();
+           // 
+           // Form1
+           // 
+           this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 24F);
+           this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+           this.ClientSize = new System.Drawing.Size(800, 450);
+           this.Name = "Form1";
+           this.Text = "Form1";
+	   this.Load += new System.EventHandler(this.Form1_Load);
+           this.ResumeLayout(false);
+
+       }
+       #endregion
+}
+```
+- 만들고자하는 윈도우 창을 미리보기 형식으로 버튼이나 텍스트 박스 등을 설정하고 구축하는 역할(껍데기)
+
+<br>
+
+> Form1.cs
+```
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace INIT
+{
+    public partial class Form1 : Form	
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+     }
+}
+```
+- Form1.Designer.cs에서 만들어놓은 버튼이나 텍스트박스 등을 실제로 다루는 C# 소스 코드를 작성하는 역할(실제 내용물)
+- public partial class Form1 : Form
+	- Form1.cs는 Form1.Designer.cs와 똑같은 클래스인데 2개의 cs 파일로 나눈 것
+	- 일반적인 public class 라고 선언하지 않고 나누어 떨어진 아이들이란 말을 붙여 public partial class Form1 : Form 이라고 사용
+- InitializeComponent()
+	- UI를 생성하는 역할 (반드시 선언되어야 하는 존재)
 
 
 

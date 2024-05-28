@@ -1,0 +1,10 @@
+C:\Users\babys\Desktop\EMBEDDED\LEC\C#\02_SERIAL_PORT_CONN\bin\Debug\SERIAL_PORT_CONN.exe.config
+C:\Users\babys\Desktop\EMBEDDED\LEC\C#\02_SERIAL_PORT_CONN\bin\Debug\SERIAL_PORT_CONN.exe
+C:\Users\babys\Desktop\EMBEDDED\LEC\C#\02_SERIAL_PORT_CONN\bin\Debug\SERIAL_PORT_CONN.pdb
+C:\Users\babys\Desktop\EMBEDDED\LEC\C#\02_SERIAL_PORT_CONN\obj\Debug\02_SERIAL_PORT_CONN.csproj.AssemblyReference.cache
+C:\Users\babys\Desktop\EMBEDDED\LEC\C#\02_SERIAL_PORT_CONN\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\babys\Desktop\EMBEDDED\LEC\C#\02_SERIAL_PORT_CONN\obj\Debug\SERIAL_PORT_CONN.Properties.Resources.resources
+C:\Users\babys\Desktop\EMBEDDED\LEC\C#\02_SERIAL_PORT_CONN\obj\Debug\02_SERIAL_PORT_CONN.csproj.GenerateResource.cache
+C:\Users\babys\Desktop\EMBEDDED\LEC\C#\02_SERIAL_PORT_CONN\obj\Debug\02_SERIAL_PORT_CONN.csproj.CoreCompileInputs.cache
+C:\Users\babys\Desktop\EMBEDDED\LEC\C#\02_SERIAL_PORT_CONN\obj\Debug\SERIAL_PORT_CONN.exe
+C:\Users\babys\Desktop\EMBEDDED\LEC\C#\02_SERIAL_PORT_CONN\obj\Debug\SERIAL_PORT_CONN.pdb

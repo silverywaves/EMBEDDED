@@ -5,11 +5,11 @@
 > 조도센서 <br>
 > 아날로그 입력 값을 읽어와 LED를 PWM으로 제어
 
-![image](https://github.com/silverywaves/EMBEDDED/assets/155939946/b5552ab9-2c01-477c-a539-3fd89f9fe07d)
-
-> or
-
-![image](https://github.com/silverywaves/EMBEDDED/assets/155939946/57f9ad21-5750-4573-bcea-8be2761a359a)
+|-|
+|-|
+|![image](https://github.com/silverywaves/EMBEDDED/assets/155939946/b5552ab9-2c01-477c-a539-3fd89f9fe07d)|
+| or |
+|![image](https://github.com/silverywaves/EMBEDDED/assets/155939946/57f9ad21-5750-4573-bcea-8be2761a359a)|
 
 
 ```
@@ -39,11 +39,11 @@ void loop()
 > 초음파센서_01 <br>
 > 초음파 센서를 사용하여 물체와의 거리를 측정하고, 그 값을 시리얼 모니터에 표시
 
-![image](https://github.com/silverywaves/EMBEDDED/assets/155939946/181ffed5-8976-4bd3-b730-36af810996ad)
-
-> or
-
-![image](https://github.com/silverywaves/EMBEDDED/assets/155939946/d01be1af-1a72-4b31-afb1-74fe46d56179)
+|-|
+|-|
+|![image](https://github.com/silverywaves/EMBEDDED/assets/155939946/181ffed5-8976-4bd3-b730-36af810996ad)|
+| or |
+|![image](https://github.com/silverywaves/EMBEDDED/assets/155939946/d01be1af-1a72-4b31-afb1-74fe46d56179)|
 
 
 ```
@@ -81,11 +81,11 @@ void loop()
 > 초음파 센서에서 응답되는 펄스의 길이를 측정하여 거리로 변환<br>
 > 거리에 따라 LED ON or OFF 하도록 if-else 문을 사용<br>
 
-![image](https://github.com/silverywaves/EMBEDDED/assets/155939946/3f807cd5-cedb-44ae-8081-caf8882cb278)
-
-> or
-
-![image](https://github.com/silverywaves/EMBEDDED/assets/155939946/2de4d375-870d-4a4a-9b17-acbb916557d9)
+|-|
+|-|
+|![image](https://github.com/silverywaves/EMBEDDED/assets/155939946/3f807cd5-cedb-44ae-8081-caf8882cb278)|
+| or |
+|![image](https://github.com/silverywaves/EMBEDDED/assets/155939946/2de4d375-870d-4a4a-9b17-acbb916557d9)|
 
 
 ```
@@ -154,7 +154,9 @@ void loop()
 > 온도센서 <br>
 > 아날로그 입력을 이용하여 온도를 측정하고, 그 값을 시리얼 모니터에 출력<br>
 
-![image](https://github.com/silverywaves/EMBEDDED/assets/155939946/e5504b1c-7ca9-46f7-9a10-e4d99b236d8d)
+|-|
+|-|
+|![image](https://github.com/silverywaves/EMBEDDED/assets/155939946/e5504b1c-7ca9-46f7-9a10-e4d99b236d8d)|
 
 
 ```

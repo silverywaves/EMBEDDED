@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\babys\\Desktop\\EMBEDDED\\LEC\\C#\\03_SERIAL_PORT_CONTROLL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C81F4970-978F-4144-8B82-68C1DD1B0149}|WindowsFormsApp1.csproj|c:\\users\\babys\\desktop\\embedded\\lec\\c#\\03_serial_port_controll\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C81F4970-978F-4144-8B82-68C1DD1B0149}|WindowsFormsApp1.csproj|C:\\Users\\babys\\Desktop\\EMBEDDED\\LEC\\C#\\03_SERIAL_PORT_CONTROLL\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C81F4970-978F-4144-8B82-68C1DD1B0149}|WindowsFormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C81F4970-978F-4144-8B82-68C1DD1B0149}|WindowsFormsApp1.csproj|c:\\users\\babys\\desktop\\embedded\\lec\\c#\\03_serial_port_controll\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C81F4970-978F-4144-8B82-68C1DD1B0149}|WindowsFormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C81F4970-978F-4144-8B82-68C1DD1B0149}|WindowsFormsApp1.csproj|c:\\users\\babys\\desktop\\embedded\\lec\\c#\\03_serial_port_controll\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,13 +30,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\babys\\Desktop\\EMBEDDED\\LEC\\C#\\03_SERIAL_PORT_CONTROLL\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Form1.Designer.cs",
               "ToolTip": "C:\\Users\\babys\\Desktop\\EMBEDDED\\LEC\\C#\\03_SERIAL_PORT_CONTROLL\\Form1.Designer.cs",
               "RelativeToolTip": "Form1.Designer.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAD4AAAAVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T05:20:00.136Z",
               "EditorCaption": ""
@@ -53,22 +49,10 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\babys\\Desktop\\EMBEDDED\\LEC\\C#\\03_SERIAL_PORT_CONTROLL\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAcwGYAAAAAAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAmwH4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T05:14:10.409Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [\uB514\uC790\uC778]",
-              "DocumentMoniker": "C:\\Users\\babys\\Desktop\\EMBEDDED\\LEC\\C#\\03_SERIAL_PORT_CONTROLL\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\babys\\Desktop\\EMBEDDED\\LEC\\C#\\03_SERIAL_PORT_CONTROLL\\Form1.cs [\uB514\uC790\uC778]",
-              "RelativeToolTip": "Form1.cs [\uB514\uC790\uC778]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T05:13:32.018Z",
-              "EditorCaption": " [\uB514\uC790\uC778]"
             }
           ]
         }
